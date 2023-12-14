@@ -1,0 +1,50 @@
+/* Write your CSS code here. */
+.feedback-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.feedback-question-container,
+.thank-you-container {
+  width: 100%;
+}
+
+.feedback-question {
+  margin-bottom: 20px;
+}
+
+.emojis-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojis-list li {
+  margin: 0 10px;
+}
+
+.emojis-list button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.emoji-img {
+  width: 60px;
+  height: 60px;
+}
+
+.thank-you-heading {
+  margin-bottom: 20px;
+}
+
+.love-emoji-img {
+  width: 100px;
+  height: 100px;
+}
